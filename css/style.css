@@ -55,7 +55,7 @@ body {
     width: 80%;
     margin: 0 auto;
     max-width: 1200px;
-    min-width: 380px
+    min-width: 350px
 }
 
 .header__nav {
@@ -259,6 +259,7 @@ body {
 }
 
 @media screen and (max-width: 550px) {
+    
     .header__img {
         width: 50px;
     }
@@ -284,9 +285,9 @@ body {
     }
 }
 
-@media screen and (max-width:380px) {
+@media screen and (max-width:390px) {
     .header {
-        width: 80%;
+        width: 50%;
     }
 
     .header__logo {

@@ -1,0 +1,73 @@
+/** Contact Css  **/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /** Colors **/
+    --test-color: #a7ddb4;
+    --white: #fffaeb;
+    --spicy-pink: #7b6f6f;
+
+    /** Fonts **/
+    --big-font-size: 1.8rem;
+    --normal-font-size: 1rem;
+
+
+}
+
+.card {
+    width: 80%;
+    margin: 0 auto;    
+    margin-top: 50px;
+}
+
+.card__item {
+    background-color: var(--spicy-pink);
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 12px;
+    padding: 10px;
+    margin-bottom: 40px;
+    max-width: 700px;
+
+    -webkit-box-shadow:0px 2px 15px 2px rgba(230,221,230,0.2);
+    -moz-box-shadow: 0px 2px 15px 2px rgba(230,221,230,0.2);
+    box-shadow: 0px 2px 15px 2px rgba(230,221,230,0.2);
+}
+
+.card__item:hover {
+    opacity: .8;
+}
+
+.card__logo {
+    margin-left: 10px;
+}
+
+.card__img {
+    width: 120px;
+}
+
+.card__details {
+    margin-left: 20px;
+}
+
+.card__title {
+    font-size: var(--big-font-size);
+    letter-spacing: 0.5;
+}
+
+.card__paragraph {
+    font-size: var(--normal-font-size);
+    letter-spacing: 1.2px;
+}
+
+.card__link {
+    color: var(--white);
+    text-decoration: none;
+}
+

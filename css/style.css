@@ -3,11 +3,11 @@
 
 :root {
     /** fonts **/
-
     --poppins: 'Poppins', sans-serif;
     --big-font-size: 1.5rem;
     --big-normal-font-size: 1.2rem;
     --normal-font-size: .900rem;
+    --menu: .900rem;
 
     /** colors **/
 
@@ -108,7 +108,7 @@ body {
 .header__link {
     color: var(--white);
     text-decoration: none;
-    font-size: var(--normal-font-size);
+    font-size: var(--menu);
 
     display: flex;
     align-items:normal;

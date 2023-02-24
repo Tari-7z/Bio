@@ -25,6 +25,13 @@
     margin-top: 50px;
 }
 
+.card__con {
+    color: var(--white);
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: var(--big-font-size);
+}
+
 .card__item {
     background-color: var(--spicy-pink);
     display: flex;
@@ -108,14 +115,16 @@
     :root {
         --big-font-size: 1.6rem;
     }
-    .card__paragraph {
-        display: none;
-    }
+
 }
 
 @media screen and (max-width: 550px) {
     :root {
         --big-font-size: 1.4rem;
+    }
+    
+    .card__paragraph {
+        display: none;
     }
 }
 

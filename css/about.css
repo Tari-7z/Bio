@@ -1,0 +1,132 @@
+:root {
+    /** fonts **/
+
+    --poppins: 'Poppins', sans-serif;
+    --big-font-size: 1.6rem;
+    --big-normal-font-size: 1.3rem;
+    --normal-font-size: .900rem;
+
+    /** colors **/
+
+    --dark: #2c2b2b;
+    --spicy-pink: #7b6f6f;
+    --white: #fffaeb;
+}
+
+body {
+    color: var(--white);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.about {
+    background-color: var(--spicy-pink);
+    margin: 60px auto;
+    width: 80%;
+    max-width: 1400px;
+    min-width: 715px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 10px;
+    -webkit-box-shadow:0px 2px 15px 2px rgba(230,221,230,0.2);
+    -moz-box-shadow: 0px 2px 15px 2px rgba(230,221,230,0.2);
+    box-shadow: 0px 2px 15px 2px rgba(230,221,230,0.2);
+}
+
+.about__title {
+    font-size: var(--big-font-size);
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+
+/** Left **/
+
+.about__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px 0;
+    width: 60%;
+    padding: 50px;
+}
+
+.about__paragraph {
+    margin: 10px;
+    font-size: var(--normal-font-size);
+}
+
+
+
+/** Right **/
+
+.about__right {
+    display: flex;
+    flex-direction: column;
+    /**align-items: end;**/
+}
+
+.about__right .about__photo {
+    align-self: center;
+}
+
+.about__photo {
+    width: 220px;
+    margin-top: 20px;
+}
+
+.about__img {
+    width: 100%;
+    border-radius: 16px;
+}
+
+.about__skill {
+    margin-top: 16px;
+    text-align: center;
+}
+
+.about__list {
+    list-style: none;
+}
+
+.about__item {
+    font-size: var(--big-normal-font-size);
+    letter-spacing: 1px;
+}
+
+
+.about__photo:hover, .about__title:hover,
+.about__list:hover, .about__paragraph:hover {
+    opacity: .5;
+
+}
+
+
+
+/** Responsive Desing **/
+
+@media screen and (max-width: 850px) {
+
+
+    .about__photo {
+        width: 180px;
+    }
+
+    .about__title {
+        font-size: 1.4rem;
+    }
+    .about__paragraph {
+        font-size: .8rem;
+    }
+}
+
+@media screen and (max-width: 715px) {
+
+}

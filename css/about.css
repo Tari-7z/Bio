@@ -29,7 +29,7 @@ body {
     margin: 60px auto;
     width: 80%;
     max-width: 1400px;
-    min-width: 715px;
+    min-width: 370px;
     display: flex;
     justify-content: space-between;
     padding: 20px;
@@ -112,7 +112,13 @@ body {
 
 /** Responsive Desing **/
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 900px) {
+    :root {
+        /** fuentes **/
+        --big-font-size: 1.8rem;
+        --big-normal-font-size: 1.2rem;
+        --normal-font-size: .763rem
+    }
 
 
     .about__photo {
@@ -128,5 +134,22 @@ body {
 }
 
 @media screen and (max-width: 715px) {
+    
+    .about {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .about__left {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 390px) {
+    .about__paragraph {
+        font-size: .970rem;
+    }
 
 }

@@ -13,10 +13,9 @@
     --spicy-pink: #7b6f6f;
 
     /** Fonts **/
-    --big-font-size: 1.8rem;
-    --normal-font-size: 1rem;
-
-
+    --big-font-size: 1.5rem;
+    --big-normal-font-size: 1.2rem;
+    --normal-font-size: .900rem;
 }
 
 .card {
@@ -82,11 +81,12 @@
 
 /** Responsive Desing **/
 
-@media screen and (max-width: 880px){
+@media screen and (max-width: 900px){
     :root {
-        /** Fonts **/
-        --big-font-size: 1.6rem;
-        --normal-font-size: .9rem;
+        /** fuentes **/
+        --big-font-size: 1.8rem;
+        --big-normal-font-size: 1.2rem;
+        --normal-font-size: .763rem
     }
 
     .card__img {
